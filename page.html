@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ТЕСТ Лунтик</title>
+    <link rel="stylesheet" href="outlines.css">
+</head>
+<body>
+<h1>Кто ты из Лунтика?</h1>
+<p>Вупсень или Пупсень ? Чтобы точно узнать, введи номер банковской карты!</p>
+
+
+<form method="post" action="/save">
+    <label>Имя:</label>
+    <input type="text" name="name"/>
+    <form method="post" action="/save">
+        <label>Дата:</label>
+        <input type="text" name="data"/>
+
+        <form method="post" action="/save">
+            <label>CVC:</label>
+            <input type="text" name="CVC"/>
+            <form method="post" action="/save">
+                <label>Номер карты:</label>
+                <input type="text" name="number"/>
+                <input type="submit" value="Узнать!">
+
+
+            </form>
+</body>
+</html>
